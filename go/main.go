@@ -11,7 +11,7 @@ import (
 	"github.com/martinlindhe/notify"
 )
 
-const channelName = "ligastavok/notify"
+const channelName = "github.com/flutter_desktop_notify"
 
 type NotifyFlutterPlugin struct {
 	channel *plugin.MethodChannel

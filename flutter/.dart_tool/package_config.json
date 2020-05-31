@@ -1,0 +1,50 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "collection",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.12",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "1.12"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "1.11"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///home/jwd/Documents/Work/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "desktop_notify",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2020-05-31T13:44:21.204274Z",
+  "generator": "pub",
+  "generatorVersion": "2.9.0-7.0.dev.flutter-092ed38a87"
+}

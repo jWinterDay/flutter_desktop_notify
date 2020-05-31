@@ -2,8 +2,7 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
 
-const MethodChannel _notifyChannel = MethodChannel('ligastavok/notify');
-const String _appName = 'Liga Stavok';
+const MethodChannel _notifyChannel = MethodChannel('github.com/flutter_desktop_notify');
 
 enum DesktopNotifyMode {
   notify,
@@ -25,6 +24,7 @@ String _parseMode(DesktopNotifyMode mode) {
 
 class DesktopNotify {
   static void show({
+    @required String appName,
     @required String title,
     @required String text,
     String iconPath,
@@ -38,7 +38,7 @@ class DesktopNotify {
     _notifyChannel.invokeMethod(
       'notify',
       <String, dynamic>{
-        'appName': _appName,
+        'appName': appName,
         'title': title,
         'text': text,
         'iconPath': iconPath ?? '',

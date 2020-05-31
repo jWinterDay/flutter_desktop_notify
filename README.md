@@ -8,4 +8,4 @@ plugin for desktop notification
 uses this Golang plugin https://github.com/go-flutter-desktop
 
 example:
-![Screenshot](example.mp4)
+![Screenshot](example.png)
